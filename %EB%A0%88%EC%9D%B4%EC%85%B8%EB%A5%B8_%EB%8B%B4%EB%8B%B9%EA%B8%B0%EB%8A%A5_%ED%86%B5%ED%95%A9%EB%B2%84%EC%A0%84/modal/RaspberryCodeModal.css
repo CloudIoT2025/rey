@@ -1,0 +1,42 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4); /* 어두운 배경 */
+  display: flex;
+  justify-content: center;  /* 가로 중앙 */
+  align-items: center;      /* 세로 중앙 */
+  z-index: 9999;            /* 다른 컴포넌트 위에 떠야 하므로 높은 z-index */
+}
+
+.modal-box {
+  background: white;
+  border: 2px solid #444;
+  border-radius: 12px;
+  padding: 30px 40px;
+  text-align: center;
+  min-width: 300px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.close-btn {
+  margin-top: 20px;
+  padding: 8px 16px;
+  border: none;
+  background: #444;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.open-btn {
+  margin-top: 20px;
+  padding: 8px 16px;
+  border: none;
+  background: #444;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
